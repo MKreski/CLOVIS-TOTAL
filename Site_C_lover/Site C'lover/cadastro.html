@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap"
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <img src="/img/logo-inicio.png" alt="logo" class="img" />
+    <div class="background">
+        <a href="/login.html"><i class="bi bi-arrow-left-circle-fill"></i></a>
+      <h1 id="login">Cadastre-se abaixo</h1>
+      <form action="" class="box100">
+        <div class="box1">
+          <div class="name">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required maxlength="25" />
+          </div>
+          <div class="sobrenome">
+            <label for="sobrenome">Sobrenome:</label>
+            <input
+              type="text"
+              name="sobrenome"
+              id="sobrenome"
+              required
+              maxlength="30"
+            />
+          </div>
+        </div>
+        <div class="box2">
+          <div class="email">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              maxlength="45"
+              placeholder="exemplo@gmail.com"
+            />
+          </div>
+          <div class="tel">
+            <label for="(DDD)">Telefone:</label>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class="number"
+              required
+              maxlength="15"
+              placeholder="(00) 00000-0000"
+            />
+            <input
+              type="tel"
+              name="(DDD)"
+              id="(DDD)"
+              class="ddd"
+              maxlength="6"
+              placeholder="+55"
+            />
+          </div>
+          <div class="senha">
+            <label for="senha">Senha:</label>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              required
+              maxlength="20"
+            />
+          </div>
+          <div class="cnfm-senha">
+            <label for="cnfm-senha">Confirme sua Senha:</label>
+            <input
+              type="password"
+              name="cnfm-senha"
+              id="cnfm-senha"
+              required
+              maxlength="20"
+            />
+          </div>
+        </div>
+        <p id="outra-conta">ou crie com</p>
+        <div class="social-midias">
+          <div class="face">
+            <i class="bi bi-facebook"></i>
+            <a href="#" id="login-face">Cadastre-se com o Facebook</a>
+          </div>
+          <div class="tt">
+            <i class="bi bi-twitter"></i>
+            <a href="#" id="login-tt">Cadastre-se com o Twitter</a>
+          </div>
+        </div>
+          <div class="cont">
+            <a href="#">Continuar</a>
+          </div>
+        <p id="recaptcha">Protegido por reCAPTCHA - Privacidade | Condições</p>
+      </form>
+    </div>
+  </body>
+</html>

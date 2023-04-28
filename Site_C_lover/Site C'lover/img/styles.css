@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(180deg, #ef41b4 0%, #01bb83 100%);
+  background-size: cover;
+  height: 110vh;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+}
+.img-x {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 45px;
+  top: 48px;
+}
+.div-menu {
+  display: flex;
+  height: 120px;
+}
+.itens-menu h1 {
+  position: absolute;
+  width: 342px;
+  height: 37px;
+  left: 114px;
+  top: 55px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.img-logo {
+  position: absolute;
+  width: 342px;
+  height: 104.04px;
+  left: 1530px;
+  top: 21px;
+}
+.text-aviso {
+  position: absolute;
+  width: 1123px;
+  height: 90px;
+  left: 96px;
+  top: 138px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.nome {
+  /* display: flex; */
+  margin-top: 150px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.input-nome {
+  /* position: absolute; */
+  height: 66px;
+  width: 681px;
+  /* left: 0px; */
+  /* margin-left: 83px; */
+  border-radius: 9px;
+  /* top: 35.29%;  */
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffe8e8;
+  border-radius: 9px;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  color: #ffffff;
+}
+.sobrenome {
+  /* margin-top: 150px; */
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.boxs {
+  width: 681px;
+  margin-left: 100px;
+}
+
+.input-descricao {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 15px;
+  height: 222px;
+  width: 681px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffe8e8;
+  border-radius: 9px;
+}
+textarea {
+  resize: none;
+}
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+  

@@ -1,0 +1,252 @@
+/*font-family: 'Itim', cursive;
+        font-family: 'Lobster', cursive;
+        font-family: 'Inter', sans-serif;*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/fundo-inicio.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.img {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  margin-top: -420px;
+  margin-left: 34px;
+}
+.background {
+  position: relative;
+  z-index: 3;
+  width: 436px;
+  height: 586px;
+
+  background: #f5dff3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 2px solid black;
+}
+#login {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 41px;
+  text-align: center;
+  margin-top: 30px;
+
+  color: #000000;
+}
+input {
+  display: block;
+  width: 357px;
+  height: 43px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-family: "Itim", cursive;
+  letter-spacing: 0.5;
+  font-size: 17px;
+}
+label {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 8px;
+
+  color: #000000;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+#esq-senha {
+  right: 45px;
+  margin-top: -10px;
+  position: absolute;
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+#sua-conta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+.cont {
+  width: 234px;
+  height: 48px;
+  margin-bottom: 15px;
+  background-color: #00a470;
+  border-radius: 30px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.cont a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+.pp {
+  display: flex;
+  justify-content: center;
+}
+#outra-conta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+#recaptcha {
+  display: flex;
+  justify-content: center;
+}
+.social-midias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+.social-midias a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google {
+  width: 185px;
+  height: 42px;
+  background: #db4a39;
+  border-radius: 30px;
+  border: 1.8px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.google::after {
+  background-color: #000;
+  display: flex;
+  content: "";
+  rotate: 90deg;
+  width: 40px;
+  height: 1px;
+  margin-left: -13px;
+  position: absolute;
+  margin-right: 85px;
+}
+#login-google {
+  padding-left: 8px;
+}
+.bi {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.face {
+  width: 185px;
+  height: 42px;
+  background: #385898;
+  border-radius: 30px;
+  border: 1.8px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.face::after {
+  background-color: #000;
+  display: flex;
+  content: "";
+  rotate: 90deg;
+  width: 40px;
+  height: 1px;
+  margin-left: -13px;
+  position: absolute;
+  margin-right: 95px;
+}
+.tt {
+  width: 185px;
+  height: 42px;
+  background: #1d9bf0;
+  border-radius: 30px;
+  border: 1.8px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.tt::after {
+  background-color: #000;
+  display: flex;
+  content: "";
+  rotate: 90deg;
+  width: 40px;
+  height: 1px;
+  margin-left: -13px;
+  position: absolute;
+  margin-right: 95px;
+}

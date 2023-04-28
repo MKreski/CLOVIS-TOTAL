@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.barra{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	height: 68px;
+	width: 100%;
+	background-color: #EF41B4;
+}
+
+.pesquisa{
+	display: flex;
+	width: 1016px;
+	height: 50px;
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+
+.menu{
+	display: flex;
+	height: 51px;
+	width: 51px;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.traco{
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	height: 10px;
+	width: 51px;
+}
+
+
+.pesquisa h1{
+	align-self: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.input{
+	pointer-events: visibleStroke;
+	width: 970px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	border-radius: 16px;
+}
+
+body{
+	background: linear-gradient(180deg, #DDF5A9 0%, #BDEF90 22.44%, #07CB07 119.67%);
+	background-repeat: no-repeat;
+	height: 1973px;
+}
+
+.botao{
+	background-color: transparent;
+	border-radius: 16px;
+	align-self: center;
+	height: 68px;
+	width: 50px;
+	cursor: pointer;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.div-logo{
+	margin-top: 10px;
+	height:173px ;
+	width:127px;
+	margin-left: 30px;
+}
+
+h1{
+
+	margin-top: 100px;
+}
+
+h5{
+
+	margin-top: 150px;
+}
+
+
+.div-lista{
+
+	margin-top: 200px;
+	margin-right: 100px;
+}
